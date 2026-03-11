@@ -1,0 +1,2036 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Вольеры и будки для собак в Самаре и Самарской области на заказ | Изготовление и монтаж</title>
+  <meta name="description" content="Изготавливаем вольеры и будки для собак на заказ в Самаре и Самарской области. Теплые и уличные вольеры, индивидуальные размеры, доставка и монтаж. Собственное производство, расчет стоимости и помощь с выбором конструкции." />
+  <style>
+    :root {
+      --bg: #f5f2ed;
+      --bg-2: #fbfaf8;
+      --surface: rgba(255,255,255,0.72);
+      --surface-strong: rgba(255,255,255,0.88);
+      --surface-solid: #ffffff;
+      --text: #1f1f1f;
+      --muted: #6f6a63;
+      --line: rgba(32, 28, 24, 0.08);
+      --line-strong: rgba(32, 28, 24, 0.14);
+      --accent: #8b674e;
+      --accent-2: #b69277;
+      --accent-soft: rgba(182, 146, 119, 0.14);
+      --green: #667b5a;
+      --green-soft: rgba(102, 123, 90, 0.10);
+      --shadow: 0 24px 60px rgba(31, 25, 21, 0.10);
+      --shadow-soft: 0 12px 32px rgba(31, 25, 21, 0.07);
+      --container: 1240px;
+      --header-h: 76px;
+      --section: 120px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: "SF Pro Display", "SF Pro Text", Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(182,146,119,.08), transparent 28%),
+        radial-gradient(circle at 100% 0%, rgba(139,103,78,.05), transparent 22%),
+        linear-gradient(180deg, #fbfaf8 0%, #f6f2ec 52%, #f2eee8 100%);
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    img { max-width: 100%; display: block; }
+    a { color: inherit; text-decoration: none; }
+    button, input, textarea { font: inherit; }
+
+    .container {
+      width: min(100% - 32px, var(--container));
+      margin: 0 auto;
+    }
+
+    .section {
+      padding: var(--section) 0;
+      scroll-margin-top: calc(var(--header-h) + 22px);
+    }
+
+    .section-head {
+      max-width: 760px;
+      display: grid;
+      gap: 14px;
+      margin-bottom: 44px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      width: fit-content;
+      padding: 6px 11px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.6);
+      border: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      backdrop-filter: blur(14px);
+    }
+
+    h1, h2, h3, h4, p { margin: 0; }
+
+    h1 {
+      font-size: clamp(2.2rem, 4.2vw, 4.2rem);
+      line-height: 1.02;
+      letter-spacing: -.045em;
+      font-weight: 700;
+      max-width: 860px;
+    }
+
+    h2 {
+      font-size: clamp(2rem, 3.2vw, 3.4rem);
+      line-height: 1.02;
+      letter-spacing: -.04em;
+      font-weight: 700;
+    }
+
+    h3 {
+      font-size: clamp(1.06rem, 1.55vw, 1.26rem);
+      line-height: 1.22;
+      letter-spacing: -.03em;
+      font-weight: 650;
+    }
+
+    .lead,
+    .section-head p,
+    .muted,
+    .card p,
+    .service-copy,
+    .faq-answer,
+    .footer-copy,
+    .list li,
+    .work-meta,
+    .review-role,
+    .about-copy,
+    .cta-text,
+    .contact-card small,
+    .stat p,
+    .timeline-copy,
+    .geo-copy,
+    .price-note,
+    .subcat,
+    .hero-note,
+    .hero-meta,
+    .footer-bottom,
+    .contact-meta,
+    .nav-link,
+    .dropdown-toggle,
+    .dropdown-menu a,
+    .photo-label {
+      color: var(--muted);
+    }
+
+    .lead {
+      font-size: clamp(1.02rem, 1.55vw, 1.16rem);
+      max-width: 760px;
+      line-height: 1.62;
+    }
+
+    .btn-row,
+    .hero-actions,
+    .cta-actions,
+    .footer-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 50px;
+      padding: 0 20px;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      font-size: .95rem;
+      font-weight: 600;
+      letter-spacing: -.01em;
+      transition: transform .28s ease, box-shadow .28s ease, border-color .28s ease, background .28s ease, color .28s ease;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 16px 28px rgba(31, 25, 21, .10);
+    }
+
+    .btn-primary {
+      background: linear-gradient(180deg, #927058 0%, #7e5d46 100%);
+      color: #fff;
+      box-shadow: 0 14px 30px rgba(126, 93, 70, .22);
+    }
+
+    .btn-secondary {
+      background: rgba(255,255,255,0.72);
+      color: var(--text);
+      border-color: var(--line);
+      backdrop-filter: blur(14px);
+    }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--text);
+      border-color: var(--line);
+    }
+
+    .chip-list,
+    .geo-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 22px;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+
+    .hero-metrics,
+    .subcat-list {
+      display: grid;
+      gap: 10px 22px;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+
+    .hero-metrics {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      max-width: 760px;
+    }
+
+    .subcat-list {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .geo-tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 38px;
+      padding: 0 14px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.7);
+      border: 1px solid var(--line);
+      backdrop-filter: blur(12px);
+    }
+
+    .metric-pill,
+    .chip,
+    .subcat {
+      position: relative;
+      min-height: auto;
+      padding: 0 0 0 18px;
+      border: none;
+      background: none;
+      backdrop-filter: none;
+      border-radius: 0;
+      font-size: .95rem;
+    }
+
+    .metric-pill,
+    .subcat {
+      color: var(--text);
+      font-weight: 600;
+      letter-spacing: -.01em;
+    }
+
+    .chip {
+      color: var(--muted);
+    }
+
+    .metric-pill::before,
+    .chip::before,
+    .subcat::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: .65em;
+      transform: translateY(-50%);
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: linear-gradient(180deg, var(--green), #55694b);
+    }
+
+    .metric-pill::before {
+      box-shadow: 0 0 0 5px rgba(102, 123, 90, 0.10);
+    }
+
+    .subcat::before {
+      width: 10px;
+      height: 10px;
+      border-radius: 3px;
+      box-shadow: 0 0 0 5px rgba(102, 123, 90, 0.10);
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      padding: 14px 0;
+      background: linear-gradient(180deg, rgba(245,242,237,.92), rgba(245,242,237,.76));
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(31, 25, 21, 0.04);
+    }
+
+    .header-shell {
+      min-height: calc(var(--header-h) - 10px);
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 18px;
+      padding: 12px 16px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.56);
+      border: 1px solid rgba(31, 25, 21, 0.06);
+      box-shadow: 0 8px 24px rgba(31, 25, 21, .05);
+      backdrop-filter: blur(18px);
+    }
+
+    .brand {
+      display: inline-grid;
+      gap: 2px;
+      align-items: center;
+      min-width: 210px;
+    }
+
+    .brand-title {
+      font-size: .98rem;
+      font-weight: 700;
+      letter-spacing: -.03em;
+      color: var(--text);
+    }
+
+    .brand-subtitle {
+      font-size: .75rem;
+      color: var(--muted);
+      letter-spacing: -.01em;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: center;
+      min-width: 0;
+    }
+
+    .nav-list {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2px;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      min-width: 0;
+    }
+
+    .nav-link,
+    .dropdown-toggle {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 38px;
+      padding: 0 11px;
+      border-radius: 999px;
+      font-size: .89rem;
+      font-weight: 500;
+      letter-spacing: -.015em;
+      transition: background .24s ease, color .24s ease, transform .24s ease;
+      white-space: nowrap;
+    }
+
+    .nav-link:hover,
+    .dropdown-toggle:hover,
+    .dropdown:hover > .dropdown-toggle,
+    .nav-link:focus-visible,
+    .dropdown-toggle:focus-visible {
+      background: rgba(31,25,21,.05);
+      color: var(--text);
+      outline: none;
+    }
+
+    .dropdown { position: relative; }
+
+    .dropdown-menu {
+      position: absolute;
+      top: calc(100% + 12px);
+      left: 50%;
+      transform: translateX(-50%) translateY(8px);
+      min-width: 300px;
+      padding: 10px;
+      display: grid;
+      gap: 4px;
+      border-radius: 12px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.94);
+      box-shadow: 0 24px 48px rgba(31,25,21,.12);
+      backdrop-filter: blur(20px);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity .24s ease, transform .24s ease, visibility .24s ease;
+    }
+
+    .dropdown:hover .dropdown-menu,
+    .dropdown:focus-within .dropdown-menu {
+      opacity: 1;
+      visibility: visible;
+      transform: translateX(-50%) translateY(0);
+    }
+
+    .dropdown-menu a {
+      padding: 12px 14px;
+      border-radius: 10px;
+      font-size: .94rem;
+      transition: background .22s ease, color .22s ease;
+    }
+
+    .dropdown-menu a:hover {
+      background: rgba(31,25,21,.045);
+      color: var(--text);
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .header-phone {
+      display: inline-flex;
+      align-items: center;
+      min-height: 38px;
+      padding: 0 14px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.48);
+      border: 1px solid rgba(31,25,21,.05);
+      font-size: .92rem;
+      font-weight: 600;
+      color: var(--text);
+      white-space: nowrap;
+    }
+
+    .menu-toggle,
+    .mobile-services {
+      display: none;
+    }
+
+    .burger {
+      display: none;
+      width: 44px;
+      height: 44px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      background: rgba(255,255,255,.62);
+      border: 1px solid rgba(31,25,21,.06);
+      cursor: pointer;
+    }
+
+    .burger span,
+    .burger span::before,
+    .burger span::after {
+      display: block;
+      width: 18px;
+      height: 2px;
+      border-radius: 999px;
+      background: var(--text);
+      position: relative;
+      transition: transform .24s ease, opacity .24s ease;
+      content: "";
+    }
+
+    .burger span::before { position: absolute; top: -6px; }
+    .burger span::after { position: absolute; top: 6px; }
+
+    .hero {
+      padding: 42px 0 32px;
+      overflow: clip;
+    }
+
+    .hero-shell {
+      position: relative;
+      padding: clamp(32px, 4vw, 56px);
+      border-radius: 20px;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.82), rgba(255,255,255,.62)),
+        linear-gradient(140deg, rgba(182,146,119,.06), transparent 45%);
+      border: 1px solid rgba(31,25,21,.06);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(22px);
+      overflow: hidden;
+    }
+
+    .hero-shell::before {
+      content: "";
+      position: absolute;
+      right: -120px;
+      top: -120px;
+      width: 360px;
+      height: 360px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(182,146,119,.18), transparent 68%);
+      pointer-events: none;
+    }
+
+    .hero-grid {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(320px, .85fr);
+      gap: 28px;
+      align-items: center;
+    }
+
+    .hero-copy {
+      display: grid;
+      gap: 24px;
+    }
+
+    .hero-top {
+      display: grid;
+      gap: 18px;
+    }
+
+    .hero-meta {
+      max-width: 660px;
+      font-size: .94rem;
+    }
+
+    .hero-note {
+      font-size: .91rem;
+    }
+
+    .hero-visual,
+    .work-image,
+    .cta-side {
+      position: relative;
+      overflow: hidden;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,0)),
+        linear-gradient(145deg, #c9b19c 0%, #e8ddd2 48%, #9b816e 100%);
+      border: 1px solid rgba(255,255,255,.14);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.22);
+    }
+
+    .hero-visual {
+      min-height: 600px;
+      border-radius: 18px;
+    }
+
+    .work-image {
+      min-height: 300px;
+      border-radius: 0;
+    }
+
+    .cta-side {
+      min-height: 300px;
+      border-radius: 16px;
+    }
+
+    .hero-visual::before,
+    .work-image::before,
+    .cta-side::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(180deg, rgba(20,20,20,.06), rgba(20,20,20,.20)),
+        linear-gradient(135deg, rgba(255,255,255,.18), transparent 45%);
+    }
+
+    .photo-label {
+      position: absolute;
+      left: 18px;
+      bottom: 18px;
+      min-height: 36px;
+      display: inline-flex;
+      align-items: center;
+      padding: 0 12px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.82);
+      border: 1px solid rgba(31,25,21,.06);
+      backdrop-filter: blur(14px);
+      font-size: .88rem;
+      font-weight: 600;
+      z-index: 2;
+    }
+
+    .hero-house {
+      position: absolute;
+      left: 50%;
+      bottom: 24px;
+      transform: translateX(-50%);
+      width: min(88%, 420px);
+      aspect-ratio: 1.08 / 1;
+      border-radius: 16px;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.16), rgba(255,255,255,.06)),
+        linear-gradient(160deg, #ccaa8a, #7d5d49);
+      box-shadow: 0 24px 40px rgba(31, 25, 21, .18);
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,.2);
+    }
+
+    .hero-house::before {
+      content: "";
+      position: absolute;
+      inset: 16px 16px auto;
+      height: 42%;
+      border-radius: 10px;
+      background: repeating-linear-gradient(90deg, rgba(56,35,22,.72) 0 12px, rgba(255,255,255,.08) 12px 72px);
+    }
+
+    .hero-house::after {
+      content: "";
+      position: absolute;
+      inset: auto 16px 16px;
+      height: 34%;
+      border-radius: 10px;
+      background: linear-gradient(180deg, rgba(247,239,229,.95), rgba(218,197,176,.98));
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.18);
+    }
+
+    .hero-floating {
+      position: absolute;
+      display: grid;
+      gap: 4px;
+      padding: 14px 16px;
+      border-radius: 12px;
+      background: rgba(255,255,255,.82);
+      border: 1px solid rgba(31,25,21,.06);
+      box-shadow: 0 20px 36px rgba(31,25,21,.10);
+      backdrop-filter: blur(18px);
+      z-index: 2;
+    }
+
+    .hero-floating strong {
+      font-size: 1.02rem;
+      letter-spacing: -.03em;
+    }
+
+    .float-1 { top: 18px; left: 18px; }
+    .float-2 { right: 18px; bottom: 70px; }
+
+    .grid-3,
+    .grid-4,
+    .grid-2,
+    .works-grid,
+    .reviews-grid,
+    .materials-grid,
+    .stats-grid,
+    .footer-grid,
+    .contacts-grid,
+    .faq-grid,
+    .about-grid,
+    .timeline-grid {
+      display: grid;
+      gap: 20px;
+    }
+
+    .grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: stretch; }
+    .grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .works-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: stretch; }
+    .reviews-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: stretch; }
+    .materials-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .stats-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .footer-grid { grid-template-columns: 1.2fr .9fr 1fr 1fr; }
+    .contacts-grid { grid-template-columns: 1.05fr .95fr; align-items: start; }
+    .faq-grid { grid-template-columns: 1fr; }
+    .about-grid { grid-template-columns: 1.05fr .95fr; align-items: start; }
+    .timeline-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+
+    .card,
+    .work-card,
+    .review-card,
+    .timeline-card,
+    .faq-item,
+    .service-card,
+    .material-card,
+    .contact-card,
+    .stat,
+    .price-box,
+    .service-feature,
+    .service-main,
+    .service-aside,
+    .price-copy,
+    .price-form,
+    .geo-card,
+    .map-card,
+    .cta-box {
+      position: relative;
+      border-radius: 14px;
+      border: 1px solid rgba(31,25,21,.06);
+      background: rgba(255,255,255,.72);
+      box-shadow: var(--shadow-soft);
+      backdrop-filter: blur(18px);
+      transition: transform .28s ease, box-shadow .28s ease, border-color .28s ease;
+      overflow: hidden;
+    }
+
+    .card:hover,
+    .work-card:hover,
+    .review-card:hover,
+    .timeline-card:hover,
+    .faq-item:hover,
+    .service-card:hover,
+    .material-card:hover,
+    .contact-card:hover,
+    .stat:hover,
+    .service-feature:hover,
+    .price-box:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 24px 40px rgba(31,25,21,.10);
+      border-color: rgba(31,25,21,.10);
+    }
+
+    .card,
+    .service-card,
+    .material-card,
+    .timeline-card,
+    .service-feature,
+    .contact-card,
+    .stat,
+    .price-box {
+      padding: 24px;
+      display: grid;
+      gap: 14px;
+      align-content: start;
+    }
+
+    .service-layout,
+    .price-layout,
+    .geo-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(320px, .95fr);
+      gap: 22px;
+      align-items: stretch;
+    }
+
+    .service-main,
+    .price-copy,
+    .geo-card {
+      padding: clamp(24px, 3vw, 34px);
+      display: grid;
+      gap: 22px;
+    }
+
+    .service-main {
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.84), rgba(255,255,255,.68)),
+        linear-gradient(135deg, var(--green-soft), transparent 44%);
+    }
+
+    .price-copy,
+    .geo-card {
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.84), rgba(255,255,255,.68)),
+        linear-gradient(135deg, rgba(182,146,119,.08), transparent 44%);
+    }
+
+    .service-aside,
+    .price-form,
+    .map-card {
+      padding: 24px;
+      display: grid;
+      gap: 18px;
+      align-content: start;
+    }
+
+    .service-copy,
+    .about-copy { max-width: 760px; }
+
+    .service-feature strong,
+    .contact-card strong,
+    .stat strong,
+    .price-box strong {
+      font-size: 1.06rem;
+      letter-spacing: -.02em;
+    }
+
+    .card-icon,
+    .timeline-num {
+      width: 40px;
+      height: 40px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      background: rgba(31,25,21,.045);
+      color: var(--text);
+      font-weight: 700;
+      font-size: .95rem;
+    }
+
+    .work-card {
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .work-image.alt-1 { background: linear-gradient(145deg, #bfa48f 0%, #ebe2d9 48%, #8b715f 100%); }
+    .work-image.alt-2 { background: linear-gradient(145deg, #cab09a 0%, #f1e7de 48%, #927866 100%); }
+    .work-image.alt-3 { background: linear-gradient(145deg, #b7a08f 0%, #e5dbd2 48%, #866f60 100%); }
+
+    .work-body {
+      display: grid;
+      gap: 12px;
+      padding: 24px;
+      flex: 1;
+      align-content: start;
+    }
+
+    .work-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .work-tag {
+      min-height: 34px;
+      display: inline-flex;
+      align-items: center;
+      padding: 0 12px;
+      border-radius: 999px;
+      background: rgba(31,25,21,.045);
+      color: var(--muted);
+      font-size: .86rem;
+    }
+
+    .form-head { display: grid; gap: 8px; }
+
+    .field {
+      display: grid;
+      gap: 8px;
+    }
+
+    .field label {
+      font-size: .94rem;
+      font-weight: 600;
+      letter-spacing: -.01em;
+    }
+
+    .input,
+    .textarea {
+      width: 100%;
+      padding: 15px 16px;
+      border-radius: 10px;
+      border: 1px solid rgba(31,25,21,.08);
+      background: rgba(255,255,255,.9);
+      color: var(--text);
+      transition: border-color .24s ease, box-shadow .24s ease, transform .24s ease;
+    }
+
+    .textarea {
+      min-height: 128px;
+      resize: vertical;
+    }
+
+    .input:focus,
+    .textarea:focus {
+      outline: none;
+      border-color: rgba(139,103,78,.32);
+      box-shadow: 0 0 0 4px rgba(182,146,119,.14);
+      transform: translateY(-1px);
+    }
+
+    .list {
+      display: grid;
+      gap: 12px;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+
+    .list li {
+      position: relative;
+      padding-left: 22px;
+    }
+
+    .list li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 10px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 0 6px rgba(182,146,119,.12);
+    }
+
+    .timeline-card {
+      min-height: 100%;
+      align-content: start;
+      padding: 22px;
+    }
+
+    .timeline-num {
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      background: rgba(31,25,21,.05);
+    }
+
+    .map-card {
+      min-height: 100%;
+      justify-content: space-between;
+    }
+
+    .map-visual {
+      position: relative;
+      min-height: 320px;
+      border-radius: 12px;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 30% 20%, rgba(255,255,255,.75), transparent 12%),
+        radial-gradient(circle at 68% 22%, rgba(255,255,255,.42), transparent 12%),
+        linear-gradient(145deg, #d9c7b3 0%, #f3e8dc 46%, #c3a081 100%);
+      border: 1px solid rgba(255,255,255,.16);
+    }
+
+    .map-visual::before {
+      content: "";
+      position: absolute;
+      inset: 18px;
+      border-radius: 10px;
+      background:
+        linear-gradient(90deg, transparent 0 10%, rgba(125,94,67,.08) 10% 11%, transparent 11% 30%, rgba(125,94,67,.08) 30% 31%, transparent 31% 52%, rgba(125,94,67,.08) 52% 53%, transparent 53% 75%, rgba(125,94,67,.08) 75% 76%, transparent 76%),
+        linear-gradient(0deg, transparent 0 18%, rgba(125,94,67,.08) 18% 19%, transparent 19% 40%, rgba(125,94,67,.08) 40% 41%, transparent 41% 64%, rgba(125,94,67,.08) 64% 65%, transparent 65%),
+        linear-gradient(140deg, rgba(154,110,74,.72), rgba(244,228,211,.16));
+    }
+
+    .map-pin {
+      position: absolute;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 34px;
+      padding: 0 12px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.88);
+      border: 1px solid rgba(31,25,21,.06);
+      box-shadow: 0 12px 24px rgba(31,25,21,.08);
+      font-size: .86rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .pin-main { left: 46%; top: 40%; }
+    .pin-1 { left: 18%; top: 18%; }
+    .pin-2 { left: 66%; top: 25%; }
+    .pin-3 { left: 24%; top: 65%; }
+    .pin-4 { left: 66%; top: 68%; }
+
+    .review-card {
+      padding: 24px;
+      display: grid;
+      gap: 16px;
+      min-height: 100%;
+      align-content: start;
+    }
+
+    .stars {
+      color: #8b674e;
+      letter-spacing: .18em;
+      font-size: 1rem;
+    }
+
+    .faq-item {
+      padding: 0;
+      background: rgba(255,255,255,.76);
+    }
+
+    .faq-item summary {
+      list-style: none;
+      cursor: pointer;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 18px;
+      padding: 22px 24px;
+      font-weight: 600;
+      letter-spacing: -.02em;
+    }
+
+    .faq-item summary::-webkit-details-marker { display: none; }
+
+    .faq-icon {
+      width: 34px;
+      height: 34px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      background: rgba(31,25,21,.045);
+      color: var(--text);
+      font-size: 1.14rem;
+      transition: transform .24s ease, background .24s ease;
+    }
+
+    .faq-item[open] .faq-icon {
+      transform: rotate(45deg);
+      background: rgba(31,25,21,.08);
+    }
+
+    .faq-answer {
+      padding: 0 24px 24px;
+      max-width: 920px;
+    }
+
+    .stat {
+      min-height: 100%;
+      padding: 24px;
+    }
+
+    .stat-number {
+      font-size: clamp(1.8rem, 3vw, 2.7rem);
+      font-weight: 700;
+      letter-spacing: -.05em;
+      color: var(--text);
+    }
+
+    .cta-box {
+      padding: clamp(26px, 4vw, 38px);
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(300px, .95fr);
+      gap: 24px;
+      align-items: center;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.82), rgba(255,255,255,.62)),
+        linear-gradient(135deg, rgba(182,146,119,.06), transparent 40%),
+        linear-gradient(35deg, var(--green-soft), transparent 55%);
+      box-shadow: var(--shadow);
+    }
+
+    .cta-content {
+      display: grid;
+      gap: 18px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .footer {
+      padding: 34px 0 24px;
+      border-top: 1px solid rgba(31,25,21,.06);
+      background: linear-gradient(180deg, rgba(255,255,255,.14), rgba(255,255,255,.06));
+    }
+
+    .footer-grid {
+      padding: 24px 0 30px;
+      align-items: start;
+    }
+
+    .footer-col {
+      display: grid;
+      gap: 14px;
+    }
+
+    .footer-title {
+      font-size: .98rem;
+      font-weight: 650;
+      letter-spacing: -.02em;
+    }
+
+    .footer-nav,
+    .footer-services,
+    .footer-contacts {
+      display: grid;
+      gap: 10px;
+    }
+
+    .footer-nav a,
+    .footer-services a,
+    .footer-contacts a,
+    .footer-policy {
+      color: var(--muted);
+      width: fit-content;
+      transition: color .22s ease, transform .22s ease;
+    }
+
+    .footer-nav a:hover,
+    .footer-services a:hover,
+    .footer-contacts a:hover,
+    .footer-policy:hover {
+      color: var(--text);
+      transform: translateX(2px);
+    }
+
+    .footer-bottom {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 10px 18px;
+      padding-top: 18px;
+      border-top: 1px solid rgba(31,25,21,.06);
+      font-size: .92rem;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 1180px) {
+      .header-shell { grid-template-columns: auto 1fr auto; }
+      .header-phone { display: none; }
+      .grid-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .footer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+
+    @media (max-width: 1024px) {
+      :root {
+        --header-h: 72px;
+        --section: 96px;
+      }
+
+      .header-shell {
+        grid-template-columns: 1fr auto;
+      }
+
+      .nav {
+        position: fixed;
+        top: calc(var(--header-h) + 10px);
+        left: 16px;
+        right: 16px;
+        padding: 16px;
+        border-radius: 14px;
+        background: rgba(255,255,255,.92);
+        border: 1px solid rgba(31,25,21,.06);
+        box-shadow: 0 24px 48px rgba(31,25,21,.12);
+        backdrop-filter: blur(20px);
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-10px);
+        transition: opacity .24s ease, transform .24s ease, visibility .24s ease;
+      }
+
+      .nav-list {
+        width: 100%;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 4px;
+      }
+
+      .nav-link,
+      .dropdown-toggle {
+        justify-content: space-between;
+        width: 100%;
+        min-height: 46px;
+        padding: 0 14px;
+        border-radius: 10px;
+        font-size: .98rem;
+      }
+
+      .dropdown-menu {
+        position: static;
+        min-width: 100%;
+        transform: none;
+        opacity: 1;
+        visibility: visible;
+        display: none;
+        box-shadow: none;
+        background: rgba(245,242,237,.88);
+        margin-top: 6px;
+      }
+
+      .dropdown:hover .dropdown-menu,
+      .dropdown:focus-within .dropdown-menu {
+        display: grid;
+      }
+
+      .burger { display: inline-flex; }
+
+      .menu-toggle:checked ~ .nav {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+      }
+
+      .menu-toggle:checked + .burger span {
+        background: transparent;
+      }
+
+      .menu-toggle:checked + .burger span::before {
+        transform: translateY(6px) rotate(45deg);
+      }
+
+      .menu-toggle:checked + .burger span::after {
+        transform: translateY(-6px) rotate(-45deg);
+      }
+
+      .hero-grid,
+      .service-layout,
+      .price-layout,
+      .geo-layout,
+      .about-grid,
+      .contacts-grid,
+      .cta-box {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-visual { min-height: 460px; }
+      .materials-grid,
+      .reviews-grid,
+      .timeline-grid,
+      .works-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+
+    @media (max-width: 720px) {
+      :root { --section: 74px; }
+      .container { width: min(100% - 22px, var(--container)); }
+      .site-header { padding: 10px 0; }
+      .header-shell {
+        min-height: 62px;
+        padding: 10px 12px;
+        border-radius: 18px;
+      }
+      .brand { min-width: auto; }
+      .brand-subtitle { display: none; }
+      .hero-shell { padding: 24px 20px; border-radius: 16px; }
+      .hero { padding: 24px 0 12px; }
+      .hero-copy { gap: 18px; }
+      .hero-actions,
+      .btn-row,
+      .cta-actions { flex-direction: column; }
+      .btn { width: 100%; }
+      .section-head { margin-bottom: 30px; }
+      .lead { line-height: 1.56; }
+      .work-image { min-height: 240px; }
+      .hero-visual { min-height: 360px; }
+      .hero-floating { position: static; margin-top: 12px; }
+      .hero-metrics,
+      .subcat-list { grid-template-columns: 1fr; }
+      .grid-3,
+      .grid-4,
+      .grid-2,
+      .works-grid,
+      .reviews-grid,
+      .materials-grid,
+      .stats-grid,
+      .footer-grid,
+      .timeline-grid { grid-template-columns: 1fr; }
+      .card,
+      .service-card,
+      .material-card,
+      .timeline-card,
+      .service-feature,
+      .contact-card,
+      .stat,
+      .price-box,
+      .service-main,
+      .service-aside,
+      .price-copy,
+      .price-form,
+      .geo-card,
+      .map-card,
+      .cta-box,
+      .review-card,
+      .faq-item { border-radius: 12px; }
+      .faq-item summary { padding: 18px 18px; }
+      .faq-answer { padding: 0 18px 18px; }
+      .footer-bottom { flex-direction: column; }
+      .mobile-services { display: block; }
+      .dropdown.desktop-only { display: none; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        animation: none !important;
+        transition-duration: .01ms !important;
+        transition-delay: 0ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="header-shell">
+        <a class="brand" href="#home" aria-label="Вольеры Самара">
+          <span class="brand-title">Вольеры Самара</span>
+          <span class="brand-subtitle">Изготовление вольеров, будок и конструкций на заказ</span>
+        </a>
+
+        <input class="menu-toggle" type="checkbox" id="menu-toggle" aria-label="Открыть меню" />
+        <label class="burger" for="menu-toggle" aria-hidden="true"><span></span></label>
+
+        <nav class="nav" aria-label="Основная навигация">
+          <ul class="nav-list">
+            <li><a class="nav-link" href="#home">Главная</a></li>
+            <li class="dropdown desktop-only">
+              <a class="dropdown-toggle" href="#services">Услуги</a>
+              <div class="dropdown-menu">
+                <a href="#service-main">Вольеры и будки для собак</a>
+                <a href="#other-services">Домики для кошек</a>
+                <a href="#other-services">Хозблоки</a>
+                <a href="#other-services">Беседки, террасы, веранды</a>
+                <a href="#other-services">Малые архитектурные формы</a>
+                <a href="#other-services">Металлоконструкции</a>
+                <a href="#other-services">Внутренние работы и обшивка бань, парных</a>
+              </div>
+            </li>
+            <li class="mobile-services">
+              <details>
+                <summary class="nav-link">Услуги</summary>
+                <div class="dropdown-menu" style="display:grid; position:static; min-width:100%; transform:none; opacity:1; visibility:visible; margin-top:8px; background:rgba(245,242,237,.88); box-shadow:none;">
+                  <a href="#service-main">Вольеры и будки для собак</a>
+                  <a href="#other-services">Домики для кошек</a>
+                  <a href="#other-services">Хозблоки</a>
+                  <a href="#other-services">Беседки, террасы, веранды</a>
+                  <a href="#other-services">Малые архитектурные формы</a>
+                  <a href="#other-services">Металлоконструкции</a>
+                  <a href="#other-services">Внутренние работы и обшивка бань, парных</a>
+                </div>
+              </details>
+            </li>
+            <li><a class="nav-link" href="#works">Работы</a></li>
+            <li><a class="nav-link" href="#price">Цены</a></li>
+            <li><a class="nav-link" href="#about">О компании</a></li>
+            <li><a class="nav-link" href="#faq">Статьи</a></li>
+            <li><a class="nav-link" href="#contacts">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <a class="header-phone" href="tel:+78462000000">+7 (846) 200-00-00</a>
+          <a class="btn btn-primary" href="#price-form">Расчитать стоимость</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-shell">
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <div class="hero-top">
+                <span class="eyebrow">Самара и Самарская область</span>
+                <h1>Вольеры и будки для собак в Самаре и Самарской области на заказ</h1>
+                <p class="lead">Изготавливаем теплые и уличные вольеры, будки и комплексы для собак по индивидуальным размерам. Подберем конструкцию под породу, условия содержания и бюджет, выполним доставку и монтаж на участке.</p>
+              </div>
+
+              <div class="hero-actions">
+                <a class="btn btn-primary" href="#price-form">Рассчитать стоимость</a>
+                <a class="btn btn-secondary" href="#works">Посмотреть работы</a>
+              </div>
+
+              <ul class="hero-metrics">
+                <li class="metric-pill">Индивидуальные размеры</li>
+                <li class="metric-pill">Теплые и всесезонные решения</li>
+                <li class="metric-pill">Монтаж на участке</li>
+                <li class="metric-pill">Работа по договору</li>
+              </ul>
+
+              <ul class="chip-list" aria-label="Преимущества">
+                <li class="chip">Для частных домов, дач и питомников</li>
+                <li class="chip">Доставка по Самаре и области</li>
+                <li class="chip">Понятная смета</li>
+              </ul>
+
+              <p class="hero-note">Предварительный расчет после уточнения размеров, материалов и комплектации.</p>
+            </div>
+
+            <aside class="hero-visual" aria-label="Фото проекта">
+              <div class="hero-floating float-1">
+                <strong>Под ваши размеры</strong>
+                <span class="hero-meta">для одной или нескольких собак</span>
+              </div>
+              <div class="hero-house"></div>
+              <div class="hero-floating float-2">
+                <strong>Доставка и монтаж</strong>
+                <span class="hero-meta">Самара и область</span>
+              </div>
+              <span class="photo-label">Фото реализованного проекта</span>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="advantages">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Преимущества</span>
+          <h2>Почему заказывают вольеры у нас</h2>
+          <p>Делаем не просто типовые конструкции, а подбираем решение под конкретную собаку, участок и условия эксплуатации.</p>
+        </div>
+
+        <div class="grid-3">
+          <article class="card">
+            <span class="card-icon">01</span>
+            <h3>Индивидуальные размеры</h3>
+            <p>Изготавливаем вольеры и будки по нужной длине, ширине и высоте, с учетом породы и количества собак.</p>
+          </article>
+          <article class="card">
+            <span class="card-icon">02</span>
+            <h3>Надежные материалы</h3>
+            <p>Используем дерево и металл, рассчитанные на уличную эксплуатацию и длительное использование.</p>
+          </article>
+          <article class="card">
+            <span class="card-icon">03</span>
+            <h3>Теплые решения на зиму</h3>
+            <p>Предусматриваем утепление, защиту от ветра, удобную будку и продуманную внутреннюю планировку.</p>
+          </article>
+          <article class="card">
+            <span class="card-icon">04</span>
+            <h3>Удобство в уходе</h3>
+            <p>Проектируем конструкцию так, чтобы ей было удобно пользоваться и поддерживать чистоту.</p>
+          </article>
+          <article class="card">
+            <span class="card-icon">05</span>
+            <h3>Доставка и монтаж</h3>
+            <p>Привозим готовые изделия или собираем конструкцию на месте в Самаре и Самарской области.</p>
+          </article>
+          <article class="card">
+            <span class="card-icon">06</span>
+            <h3>Понятная смета</h3>
+            <p>Сразу объясняем, из чего складывается стоимость и какие параметры действительно влияют на цену.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="service-main">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Основная услуга</span>
+          <h2>Изготовление вольеров и будок для собак под ключ</h2>
+          <p>Производим конструкции для частных домов, дач, загородных участков и хозяйств в Самаре и Самарской области.</p>
+        </div>
+
+        <div class="service-layout" id="services">
+          <div class="service-main">
+            <p class="service-copy">Изготавливаем конструкции как для одной собаки, так и для нескольких животных. Подбираем размеры, материалы, тип крыши, перегородки, утепление и внутреннюю комплектацию.</p>
+            <ul class="subcat-list">
+              <li class="subcat">Вольеры для крупных собак</li>
+              <li class="subcat">Теплые зимние вольеры</li>
+              <li class="subcat">Уличные вольеры из дерева и металла</li>
+              <li class="subcat">Вольеры с будкой</li>
+              <li class="subcat">Вольеры с хозблоком</li>
+              <li class="subcat">Вольеры для двух собак</li>
+            </ul>
+            <div class="btn-row">
+              <a class="btn btn-primary" href="#price-form">Подробнее об изготовлении</a>
+              <a class="btn btn-ghost" href="#materials">Материалы и конструкция</a>
+            </div>
+          </div>
+
+          <aside class="service-aside">
+            <article class="service-feature">
+              <strong>Под ключ</strong>
+              <p>От первого расчета и согласования проекта до доставки и монтажа на участке.</p>
+            </article>
+            <article class="service-feature">
+              <strong>Для частных домов и питомников</strong>
+              <p>Подбираем решения для одной собаки, пары животных и более сложных объектов.</p>
+            </article>
+            <article class="service-feature">
+              <strong>Продуманная конструкция</strong>
+              <p>Сочетаем практичность, долговечность и аккуратный внешний вид.</p>
+            </article>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="types">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Виды конструкций</span>
+          <h2>Какие вольеры мы изготавливаем</h2>
+          <p>Предлагаем разные форматы исполнения под размеры участка, породу собаки и условия содержания.</p>
+        </div>
+
+        <div class="grid-3">
+          <article class="card">
+            <h3>Теплые вольеры для зимнего содержания</h3>
+            <p>Подходят для круглогодичного использования. Возможны утепленные стены, будка, защита от ветра и продуманная внутренняя зона.</p>
+          </article>
+          <article class="card">
+            <h3>Уличные вольеры для частного дома</h3>
+            <p>Практичное решение для размещения собаки на участке с удобным доступом и надежной конструкцией.</p>
+          </article>
+          <article class="card">
+            <h3>Вольеры для крупных пород</h3>
+            <p>Усиленные конструкции для активных и сильных собак с учетом размеров и особенностей содержания.</p>
+          </article>
+          <article class="card">
+            <h3>Вольеры с будкой</h3>
+            <p>Комплексное решение, в котором все элементы изначально продуманы между собой.</p>
+          </article>
+          <article class="card">
+            <h3>Вольеры с хозблоком</h3>
+            <p>Удобный вариант для хранения корма, инвентаря и принадлежностей рядом с зоной содержания.</p>
+          </article>
+          <article class="card">
+            <h3>Будки для собак на заказ</h3>
+            <p>Отдельные будки с учетом размера собаки, сезона эксплуатации и пожеланий по материалам.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="works">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Портфолио</span>
+          <h2>Наши работы в Самаре и Самарской области</h2>
+          <p>Показываем проекты с описанием, размерами и комплектацией.</p>
+        </div>
+
+        <div class="works-grid">
+          <article class="work-card">
+            <div class="work-image">
+              <span class="photo-label">Фото объекта</span>
+            </div>
+            <div class="work-body">
+              <h3>Вольер 3×2 м с утепленной будкой</h3>
+              <p class="work-meta">Металлический каркас, деревянная обшивка, кровля, удобный вход и зона отдыха для собаки.</p>
+              <div class="work-tags">
+                <span class="work-tag">3×2 м</span>
+                <span class="work-tag">утепление</span>
+                <span class="work-tag">монтаж</span>
+              </div>
+            </div>
+          </article>
+          <article class="work-card">
+            <div class="work-image alt-1">
+              <span class="photo-label">Фото объекта</span>
+            </div>
+            <div class="work-body">
+              <h3>Вольер для крупной собаки 4×2 м</h3>
+              <p class="work-meta">Усиленная конструкция, надежные материалы, защита от осадков и удобство уборки.</p>
+              <div class="work-tags">
+                <span class="work-tag">4×2 м</span>
+                <span class="work-tag">крупная порода</span>
+                <span class="work-tag">каркас</span>
+              </div>
+            </div>
+          </article>
+          <article class="work-card">
+            <div class="work-image alt-2">
+              <span class="photo-label">Фото объекта</span>
+            </div>
+            <div class="work-body">
+              <h3>Вольер с будкой и хозблоком</h3>
+              <p class="work-meta">Комбинированное решение для участка с дополнительным местом для хранения и аккуратной компоновкой зон.</p>
+              <div class="work-tags">
+                <span class="work-tag">хозблок</span>
+                <span class="work-tag">комбинированный</span>
+                <span class="work-tag">под ключ</span>
+              </div>
+            </div>
+          </article>
+          <article class="work-card">
+            <div class="work-image alt-3">
+              <span class="photo-label">Фото объекта</span>
+            </div>
+            <div class="work-body">
+              <h3>Будка для собаки с утеплением</h3>
+              <p class="work-meta">Практичный вариант для уличного размещения или как часть общего комплекса.</p>
+              <div class="work-tags">
+                <span class="work-tag">будка</span>
+                <span class="work-tag">зима</span>
+                <span class="work-tag">индивидуально</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="btn-row" style="margin-top: 28px;">
+          <a class="btn btn-secondary" href="#cta">Смотреть все работы</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="price">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Стоимость</span>
+          <h2>Сколько стоит изготовление вольера</h2>
+          <p>Стоимость рассчитывается индивидуально и зависит от размеров, типа каркаса, материалов обшивки, утепления, кровли, перегородок, пола, доставки и сложности монтажа.</p>
+        </div>
+
+        <div class="price-layout">
+          <div class="price-copy">
+            <div class="price-box">
+              <strong>Что влияет на цену</strong>
+              <ul class="list" style="margin-top: 14px;">
+                <li>длина, ширина и высота;</li>
+                <li>количество секций и планировка;</li>
+                <li>наличие утепленной будки;</li>
+                <li>тип пола и основания;</li>
+                <li>дерево, металл или комбинированное исполнение;</li>
+                <li>вид крыши;</li>
+                <li>место установки;</li>
+                <li>доставка и монтаж.</li>
+              </ul>
+            </div>
+            <p class="price-note">Подготовим предварительный расчет и предложим оптимальную комплектацию под ваш участок и сценарий использования.</p>
+          </div>
+
+          <form class="price-form" id="price-form">
+            <div class="form-head">
+              <h3>Получите расчет стоимости по вашим размерам</h3>
+              <p class="muted">Заполните форму, и мы предложим подходящий вариант с ориентиром по цене.</p>
+            </div>
+            <div class="field">
+              <label for="name">Имя</label>
+              <input class="input" id="name" type="text" placeholder="Ваше имя" />
+            </div>
+            <div class="field">
+              <label for="phone">Телефон</label>
+              <input class="input" id="phone" type="tel" placeholder="+7 (___) ___-__-__" />
+            </div>
+            <div class="field">
+              <label for="details">Размеры или пожелания</label>
+              <textarea class="textarea" id="details" placeholder="Например: 3×2 м, утепленная будка, монтаж в Самаре"></textarea>
+            </div>
+            <button class="btn btn-primary" type="button">Получить расчет</button>
+            <p class="muted">Подготовим предварительный расчет и предложим оптимальную комплектацию.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="materials">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Материалы</span>
+          <h2>Надежные материалы и продуманная конструкция</h2>
+          <p>Вольер должен быть не только аккуратным внешне, но и удобным для собаки, устойчивым к погоде и практичным в эксплуатации.</p>
+        </div>
+
+        <div class="materials-grid">
+          <article class="material-card">
+            <h3>Металлический каркас</h3>
+            <p>Обеспечивает жесткость, устойчивость и долговечность конструкции.</p>
+          </article>
+          <article class="material-card">
+            <h3>Деревянная обшивка</h3>
+            <p>Создает комфортную среду и делает внешний вид вольера аккуратным и естественным.</p>
+          </article>
+          <article class="material-card">
+            <h3>Утепление при необходимости</h3>
+            <p>Подходит для зимнего содержания и защиты от ветра и холода.</p>
+          </article>
+          <article class="material-card">
+            <h3>Практичная кровля</h3>
+            <p>Защищает конструкцию от осадков и продлевает срок службы.</p>
+          </article>
+          <article class="material-card">
+            <h3>Комплектация под задачу</h3>
+            <p>Будки, перегородки, двери, секции, хозблоки и другие элементы под конкретный проект.</p>
+          </article>
+          <article class="material-card">
+            <h3>Аккуратная геометрия</h3>
+            <p>Продумываем пропорции и компоновку, чтобы конструкция выглядела собранно и современно.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="other-services">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Другие услуги</span>
+          <h2>Другие работы, которые можно заказать у нас</h2>
+          <p>Дополнительно можно заказать и другие конструкции для участка и дома.</p>
+        </div>
+
+        <div class="grid-3">
+          <article class="service-card">
+            <h3>Домики для кошек</h3>
+            <p>Изготовление домиков для дома и улицы по индивидуальным параметрам.</p>
+          </article>
+          <article class="service-card">
+            <h3>Хозблоки</h3>
+            <p>Функциональные постройки для хранения инвентаря и организации пространства на участке.</p>
+          </article>
+          <article class="service-card">
+            <h3>Беседки, террасы, веранды</h3>
+            <p>Конструкции для отдыха, благоустройства и комфортного использования территории.</p>
+          </article>
+          <article class="service-card">
+            <h3>Малые архитектурные формы</h3>
+            <p>Изделия из дерева и металла для частных и коммерческих объектов.</p>
+          </article>
+          <article class="service-card">
+            <h3>Металлоконструкции</h3>
+            <p>Каркасы, навесы, опоры и другие изделия на заказ.</p>
+          </article>
+          <article class="service-card">
+            <h3>Внутренние работы и обшивка бань, парных</h3>
+            <p>Отделка и обшивка с учетом условий эксплуатации и пожеланий заказчика.</p>
+          </article>
+        </div>
+
+        <div class="btn-row" style="margin-top: 28px;">
+          <a class="btn btn-secondary" href="#contacts">Перейти ко всем услугам</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="steps">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Процесс</span>
+          <h2>Как проходит работа</h2>
+          <p>Работаем по понятным этапам — от заявки до сдачи готовой конструкции.</p>
+        </div>
+
+        <div class="timeline-grid">
+          <article class="timeline-card">
+            <span class="timeline-num">1</span>
+            <h3>Заявка</h3>
+            <p class="timeline-copy">Вы оставляете заявку на сайте или связываетесь с нами по телефону.</p>
+          </article>
+          <article class="timeline-card">
+            <span class="timeline-num">2</span>
+            <h3>Уточнение задачи</h3>
+            <p class="timeline-copy">Мы уточняем размеры, количество собак, условия установки и пожелания по комплектации.</p>
+          </article>
+          <article class="timeline-card">
+            <span class="timeline-num">3</span>
+            <h3>Предварительный расчет</h3>
+            <p class="timeline-copy">Подготавливаем ориентировочную стоимость и предлагаем подходящий вариант конструкции.</p>
+          </article>
+          <article class="timeline-card">
+            <span class="timeline-num">4</span>
+            <h3>Согласование проекта</h3>
+            <p class="timeline-copy">Определяем материалы, размеры, утепление, тип крыши и дополнительные элементы.</p>
+          </article>
+          <article class="timeline-card">
+            <span class="timeline-num">5</span>
+            <h3>Изготовление</h3>
+            <p class="timeline-copy">Приступаем к производству конструкции после утверждения параметров.</p>
+          </article>
+          <article class="timeline-card">
+            <span class="timeline-num">6</span>
+            <h3>Доставка и монтаж</h3>
+            <p class="timeline-copy">Привозим изделие и выполняем сборку или установку на участке.</p>
+          </article>
+          <article class="timeline-card">
+            <span class="timeline-num">7</span>
+            <h3>Сдача готового объекта</h3>
+            <p class="timeline-copy">Проверяем результат вместе с вами и передаем готовую конструкцию.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="geo">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">География</span>
+          <h2>Работаем по Самаре и Самарской области</h2>
+          <p>Изготавливаем и устанавливаем вольеры, будки и другие конструкции в Самаре и по области. Возможность доставки и монтажа в конкретный район уточняется при расчете.</p>
+        </div>
+
+        <div class="geo-layout">
+          <div class="geo-card">
+            <p class="geo-copy">Работаем с частными домами, дачами, загородными участками и хозяйствами. При необходимости заранее уточняем логистику, формат монтажа и оптимальную комплектацию под место установки.</p>
+            <ul class="geo-list">
+              <li class="geo-tag">Самара</li>
+              <li class="geo-tag">Тольятти</li>
+              <li class="geo-tag">Новокуйбышевск</li>
+              <li class="geo-tag">Сызрань</li>
+              <li class="geo-tag">Чапаевск</li>
+              <li class="geo-tag">Кинель</li>
+              <li class="geo-tag">Жигулевск</li>
+              <li class="geo-tag">Отрадный</li>
+            </ul>
+            <div class="btn-row">
+              <a class="btn btn-primary" href="#contacts">Уточнить доставку в ваш район</a>
+            </div>
+          </div>
+
+          <div class="map-card">
+            <div class="map-visual" aria-hidden="true">
+              <span class="map-pin pin-main">Самара</span>
+              <span class="map-pin pin-1">Тольятти</span>
+              <span class="map-pin pin-2">Кинель</span>
+              <span class="map-pin pin-3">Сызрань</span>
+              <span class="map-pin pin-4">Новокуйбышевск</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="reviews">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Отзывы</span>
+          <h2>Отзывы клиентов</h2>
+          <p>Отзывы владельцев домов, дач и участков, которые уже заказали у нас вольеры и другие конструкции.</p>
+        </div>
+
+        <div class="reviews-grid">
+          <article class="review-card">
+            <div class="stars">★★★★★</div>
+            <div>
+              <h3>Алексей, Самара</h3>
+              <p class="review-role">Теплый вольер с будкой для овчарки</p>
+            </div>
+            <p>Заказывали теплый вольер с будкой для овчарки. Все сделали аккуратно, по размерам участка, быстро установили.</p>
+          </article>
+          <article class="review-card">
+            <div class="stars">★★★★★</div>
+            <div>
+              <h3>Ирина, Новокуйбышевск</h3>
+              <p class="review-role">Вольер для крупной собаки</p>
+            </div>
+            <p>Нужен был удобный вольер для крупной собаки. Помогли выбрать конструкцию, рассчитали стоимость, результатом довольны.</p>
+          </article>
+          <article class="review-card">
+            <div class="stars">★★★★★</div>
+            <div>
+              <h3>Сергей, Самарская область</h3>
+              <p class="review-role">Вольер с хозблоком</p>
+            </div>
+            <p>Заказывали вольер с хозблоком. Получилось практично и удобно, видно, что конструкция сделана на совесть.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">FAQ</span>
+          <h2>Часто задаваемые вопросы</h2>
+          <p>Собрали основные вопросы по стоимости, срокам, размерам и доставке.</p>
+        </div>
+
+        <div class="faq-grid">
+          <details class="faq-item" open>
+            <summary>
+              <span>Сколько стоит вольер для собаки в Самаре?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">Цена зависит от размеров, материалов, утепления, типа крыши, пола и монтажа. Для точного расчета нужно уточнить параметры проекта.</div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              <span>Можно ли сделать вольер по моим размерам?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">Да, мы изготавливаем конструкции по индивидуальным размерам и задачам заказчика.</div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              <span>Делаете ли вы теплые зимние вольеры?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">Да, можем предусмотреть утепление, защиту от ветра, будку и другие элементы для комфортного содержания собаки.</div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              <span>Можно ли заказать будку отдельно?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">Да, изготавливаем будки как отдельно, так и в составе вольера.</div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              <span>Работаете ли вы по Самарской области?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">Да, выполняем доставку и монтаж по Самаре и области.</div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              <span>Сколько занимает изготовление?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">Срок зависит от сложности проекта, объема работ и текущей загрузки. После уточнения параметров сможем назвать ориентир по срокам.</div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              <span>Можно ли заказать вместе с вольером хозблок или другую конструкцию?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">Да, при необходимости можно сразу рассчитать дополнительные работы по участку и объединить их в одном проекте.</div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">О компании</span>
+          <h2>О компании</h2>
+          <p>Мы занимаемся изготовлением вольеров, будок и других конструкций из дерева и металла на заказ. Работаем для владельцев частных домов, дач и загородных участков в Самаре и Самарской области.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="contact-card">
+            <p class="about-copy">Делаем упор на практичность, надежность, аккуратное исполнение и удобство эксплуатации. Помогаем подобрать оптимальный вариант по конструкции, материалам и бюджету.</p>
+            <div class="btn-row">
+              <a class="btn btn-secondary" href="#cta">Подобрать решение</a>
+            </div>
+          </div>
+          <div class="stats-grid">
+            <article class="stat">
+              <span class="stat-number">100%</span>
+              <strong>Под заказ</strong>
+              <p>Индивидуальное изготовление под размеры участка и задачу.</p>
+            </article>
+            <article class="stat">
+              <span class="stat-number">8+</span>
+              <strong>Городов в фокусе</strong>
+              <p>Самара и ключевые города области с выездом на объект.</p>
+            </article>
+            <article class="stat">
+              <span class="stat-number">2</span>
+              <strong>Основных материала</strong>
+              <p>Дерево и металл с продуманной комбинацией под проект.</p>
+            </article>
+            <article class="stat">
+              <span class="stat-number">1</span>
+              <strong>Подрядчик на весь цикл</strong>
+              <p>Проект, изготовление и монтаж в одном месте.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="cta">
+      <div class="container">
+        <div class="cta-box">
+          <div class="cta-content">
+            <span class="eyebrow">Заявка</span>
+            <h2>Рассчитаем стоимость вольера под ваши размеры</h2>
+            <p class="cta-text">Оставьте заявку, и мы предложим оптимальное решение по конструкции, материалам и комплектации. Можно отправить размеры, фото участка или пример желаемого варианта — это ускорит расчет.</p>
+            <div class="cta-actions">
+              <a class="btn btn-primary" href="#price-form">Получить расчет</a>
+              <a class="btn btn-secondary" href="#contacts">Написать в WhatsApp</a>
+            </div>
+          </div>
+          <div class="cta-side">
+            <span class="photo-label">Фото участка или примера</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contacts">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Контакты</span>
+          <h2>Связаться с нами</h2>
+          <p>Оставьте заявку через сайт, позвоните или напишите в мессенджер — поможем подобрать конструкцию и рассчитать стоимость.</p>
+        </div>
+
+        <div class="contacts-grid">
+          <article class="contact-card">
+            <strong>Вольеры Самара</strong>
+            <p>Изготавливаем вольеры и будки для собак, а также другие конструкции из дерева и металла на заказ в Самаре и Самарской области.</p>
+            <div class="contact-meta">
+              <small>Телефон</small>
+              <div><a href="tel:+78462000000">+7 (846) 200-00-00</a></div>
+            </div>
+            <div class="contact-meta">
+              <small>Мессенджеры</small>
+              <div><a href="#cta">WhatsApp</a> • <a href="#cta">Telegram</a></div>
+            </div>
+            <div class="contact-meta">
+              <small>Адрес</small>
+              <div>Самара, выезд по городу и области</div>
+            </div>
+            <div class="contact-meta">
+              <small>График работы</small>
+              <div>Пн–Сб: 09:00–19:00</div>
+            </div>
+          </article>
+
+          <article class="contact-card">
+            <strong>Нужен вольер под конкретную породу и размеры участка?</strong>
+            <p>Поможем подобрать оптимальный вариант по конструкции, материалам и бюджету, а также уточним доставку и монтаж.</p>
+            <div class="btn-row">
+              <a class="btn btn-primary" href="#price-form">Оставить заявку</a>
+              <a class="btn btn-ghost" href="#works">Смотреть работы</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a class="brand" href="#home">
+            <span class="brand-title">Вольеры Самара</span>
+            <span class="brand-subtitle">Изготовление вольеров, будок и конструкций на заказ</span>
+          </a>
+          <p class="footer-copy">Изготавливаем вольеры и будки для собак, а также другие конструкции из дерева и металла на заказ в Самаре и Самарской области.</p>
+          <div class="footer-actions">
+            <a class="btn btn-secondary" href="#price-form">Оставить заявку</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-title">Меню</div>
+          <nav class="footer-nav">
+            <a href="#home">Главная</a>
+            <a href="#services">Услуги</a>
+            <a href="#works">Работы</a>
+            <a href="#price">Цены</a>
+            <a href="#about">О компании</a>
+            <a href="#faq">Статьи</a>
+            <a href="#contacts">Контакты</a>
+          </nav>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-title">Услуги</div>
+          <div class="footer-services">
+            <a href="#service-main">Вольеры и будки для собак</a>
+            <a href="#other-services">Домики для кошек</a>
+            <a href="#other-services">Хозблоки</a>
+            <a href="#other-services">Беседки, террасы, веранды</a>
+            <a href="#other-services">Металлоконструкции</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-title">Контакты</div>
+          <div class="footer-contacts">
+            <a href="tel:+78462000000">+7 (846) 200-00-00</a>
+            <a href="#cta">WhatsApp / Telegram</a>
+            <span class="muted">Самара и Самарская область</span>
+            <span class="muted">Пн–Сб: 09:00–19:00</span>
+            <a class="footer-policy" href="#">Политика конфиденциальности</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 Вольеры Самара. Все права защищены.</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
