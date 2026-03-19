@@ -317,6 +317,10 @@
     border: 1px solid rgba(31, 25, 21, 0.06);
     box-shadow: 0 24px 48px rgba(31, 25, 21, 0.12);
     backdrop-filter: blur(20px);
+    max-height: calc(100dvh - var(--header-h) - 24px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
     opacity: 0;
     visibility: hidden;
     transform: translateY(-10px);
@@ -428,6 +432,7 @@
     flex-direction: column;
   }
 }
+
 
 
 
