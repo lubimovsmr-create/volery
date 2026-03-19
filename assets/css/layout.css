@@ -385,6 +385,15 @@
     text-align: left !important;
     justify-self: start !important;
   }
+
+  .mobile-services,
+  .mobile-articles {
+    display: block;
+  }
+
+  .dropdown.desktop-only {
+    display: none;
+  }
 }
 
 @media (max-width: 720px) {
@@ -418,15 +427,8 @@
   .footer-bottom {
     flex-direction: column;
   }
-
-  .mobile-services,
-  .mobile-articles {
-    display: block;
-  }
-
-  .dropdown.desktop-only {
-    display: none;
-  }
 }
+
+
 
 

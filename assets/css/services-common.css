@@ -1131,6 +1131,10 @@ h1, h2, h3, h4, p { margin: 0; }
       .cta-box {
         grid-template-columns: 1fr;
       }
+      .grid-4,
+      .grid-3 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
       .hero-visual { min-height: 460px; }
       .materials-grid,
       .reviews-grid,
@@ -1138,13 +1142,51 @@ h1, h2, h3, h4, p { margin: 0; }
       .works-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     }
     @media (max-width: 720px) {
-.call-sticker {
+      .hero-shell,
+      .service-main,
+      .price-copy,
+      .geo-card,
+      .service-aside,
+      .price-form,
+      .map-card,
+      .card,
+      .service-card,
+      .material-card,
+      .timeline-card,
+      .service-feature,
+      .contact-card,
+      .stat,
+      .price-box {
+        padding: 18px;
+      }
+
+      .hero-visual {
+        min-height: 320px;
+      }
+
+      .grid-4,
+      .grid-3,
+      .grid-2,
+      .works-grid,
+      .reviews-grid,
+      .materials-grid,
+      .stats-grid,
+      .timeline-grid,
+      .hero-metrics,
+      .subcat-list,
+      #price .price-cards,
+      #price .price-factors {
+        grid-template-columns: 1fr;
+      }
+
+      .call-sticker {
         width: 78px;
         height: 78px;
         right: 14px;
         bottom: 14px;
         font-size: .76rem;
       }
+
       .scroll-top {
         width: 48px;
         height: 48px;
@@ -1161,5 +1203,4 @@ h1, h2, h3, h4, p { margin: 0; }
         scroll-behavior: auto !important;
       }
     }
-
 
