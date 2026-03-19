@@ -578,6 +578,25 @@
           if (!link) return;
           menuToggle.checked = false;
         });
+
+        var mobileAccordions = nav.querySelectorAll('.mobile-services details, .mobile-articles details');
+        mobileAccordions.forEach(function (accordion) {
+          var summary = accordion.querySelector('summary');
+          if (!summary) return;
+
+          summary.addEventListener('click', function (event) {
+            event.preventDefault();
+            var shouldOpen = !accordion.hasAttribute('open');
+
+            mobileAccordions.forEach(function (item) {
+              item.removeAttribute('open');
+            });
+
+            if (shouldOpen) {
+              accordion.setAttribute('open', '');
+            }
+          });
+        });
       }
 
       if (scrollTopButton) {
@@ -763,6 +782,7 @@
   </script>
 </body>
 </html>
+
 
 
 
