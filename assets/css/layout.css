@@ -311,13 +311,13 @@
     top: calc(var(--header-h) + 10px);
     left: 16px;
     right: 16px;
+    bottom: 12px;
     padding: 16px;
     border-radius: 14px;
     background: rgba(255, 255, 255, 0.92);
     border: 1px solid rgba(31, 25, 21, 0.06);
     box-shadow: 0 24px 48px rgba(31, 25, 21, 0.12);
     backdrop-filter: blur(20px);
-    max-height: calc(100dvh - var(--header-h) - 24px);
     overflow-y: auto;
     overscroll-behavior: contain;
     -webkit-overflow-scrolling: touch;
@@ -345,16 +345,15 @@
   }
   .mobile-services details,
   .mobile-articles details {
-    display: grid;
-    gap: 6px;
+    display: block;
   }
 
-  .mobile-services summary,
-  .mobile-articles summary {
-    position: sticky;
-    top: 0;
-    z-index: 3;
-    background: rgba(255, 255, 255, 0.94);
+  .mobile-services details[open] > .dropdown-menu,
+  .mobile-articles details[open] > .dropdown-menu {
+    max-height: min(46dvh, 380px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
   }
 
   .dropdown-menu {
@@ -446,8 +445,8 @@
   }
 }
 
-
-
-
+body.menu-open {
+  overflow: hidden;
+}
 
 

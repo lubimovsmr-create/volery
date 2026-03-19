@@ -573,10 +573,22 @@
       };
 
       if (menuToggle && nav) {
+        var syncMenuState = function () {
+          var isOpen = !!menuToggle.checked;
+          document.body.classList.toggle('menu-open', isOpen);
+          if (isOpen) {
+            nav.scrollTop = 0;
+          }
+        };
+
+        menuToggle.addEventListener('change', syncMenuState);
+        syncMenuState();
+
         nav.addEventListener('click', function (event) {
           var link = event.target.closest('a[href]');
           if (!link) return;
           menuToggle.checked = false;
+          syncMenuState();
         });
 
         var mobileAccordions = nav.querySelectorAll('.mobile-services details, .mobile-articles details');
@@ -782,6 +794,9 @@
   </script>
 </body>
 </html>
+
+
+
 
 
 
