@@ -343,6 +343,19 @@
     border-radius: 10px;
     font-size: 0.98rem;
   }
+  .mobile-services details,
+  .mobile-articles details {
+    display: grid;
+    gap: 6px;
+  }
+
+  .mobile-services summary,
+  .mobile-articles summary {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background: rgba(255, 255, 255, 0.94);
+  }
 
   .dropdown-menu {
     position: static;
@@ -432,6 +445,7 @@
     flex-direction: column;
   }
 }
+
 
 
 
