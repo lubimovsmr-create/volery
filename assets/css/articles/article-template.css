@@ -1,0 +1,133 @@
+﻿@import url("../base.css");
+@import url("../components.css");
+@import url("../layout.css");
+
+main.container {
+  margin-top: 42px;
+  margin-bottom: 64px;
+}
+
+.page {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 26px;
+  box-shadow: var(--shadow);
+}
+
+.page .eyebrow {
+  margin-top: 12px;
+}
+
+.page h1 {
+  margin: 10px 0 0;
+  line-height: 1.25;
+  font-size: clamp(1.7rem, 3.3vw, 2.3rem);
+}
+
+.page p {
+  line-height: 1.7;
+  margin: 16px 0 0;
+}
+
+.article-cover {
+  margin-top: 14px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  aspect-ratio: 16 / 8;
+}
+
+.article-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.related {
+  margin-top: 26px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.related-card {
+  display: block;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.related-card img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-bottom: 1px solid var(--line);
+}
+
+.related-card:hover {
+  border-color: var(--accent-2);
+}
+
+.related-card {
+  padding-bottom: 12px;
+}
+
+.related-card img + * {
+  display: block;
+  padding: 10px 12px 0;
+}
+
+.footer .btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 16px;
+  border-radius: 12px;
+  border: 1px solid var(--line-strong);
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.8);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.footer .btn-secondary:hover {
+  text-decoration: none;
+}
+.footer .brand {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.footer .brand-title {
+  font-size: 1.1rem;
+  line-height: 1.1;
+}
+
+.footer .brand-subtitle {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+@media (max-width: 980px) {
+  .related {
+    grid-template-columns: 1fr;
+  }
+
+  .page {
+    padding: 20px;
+  }
+}
+

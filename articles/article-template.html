@@ -1,0 +1,88 @@
+﻿<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ARTICLE_TITLE}} | Вольеры Самара</title>
+  <meta name="description" content="{{ARTICLE_DESCRIPTION}}" />
+    <link rel="stylesheet" href="../assets/css/articles/article-template.css" />
+</head>
+<body>
+  <header class="site-header">
+  <div class="container">
+    <div class="header-shell">
+      <a class="brand" href="../index.html#home" aria-label="Вольеры Самара">
+        <span class="brand-title">Вольеры Самара</span>
+        <span class="brand-subtitle">Изготовление вольеров и будок<br>на заказ в Самаре</span>
+      </a>
+      <input class="menu-toggle" type="checkbox" id="menu-toggle" aria-label="Открыть меню" />
+      <label class="burger" for="menu-toggle" aria-hidden="true"><span></span></label>
+      <nav class="nav" aria-label="Основная навигация">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="../index.html#home">Главная</a></li>
+          <li class="dropdown desktop-only"><a class="dropdown-toggle" href="../index.html#services">Услуги</a><div class="dropdown-menu"><a href="../index.html#service-main">Вольеры и будки для собак</a><a href="../domiki-dlya-koshek.html">Домики для кошек</a><a href="../hozbloki.html">Хозблоки</a><a href="../besedki-terrasy-verandy.html">Беседки, террасы, веранды</a><a href="../malye-arhitekturnye-formy.html">Малые архитектурные формы</a><a href="../metallokonstrukcii.html">Металлоконструкции</a><a href="../vnutrennie-raboty-i-obshivka-ban-parnyh.html">Внутренние работы и обшивка бань, парных</a></div></li>
+          <li><a class="nav-link" href="../index.html#works">Работы</a></li>
+          <li><a class="nav-link" href="../index.html#price">Цены</a></li>
+          <li><a class="nav-link" href="../index.html#about">О компании</a></li>
+          <li><a class="nav-link" href="../index.html#faq">FAQ</a></li>
+          <li class="dropdown desktop-only"><a class="dropdown-toggle" href="index.html">Статьи</a><div class="dropdown-menu"><a href="article-1.html">Беседка или терраса: что лучше выбрать</a><a href="article-2.html">Как выбрать хозблок для дачи</a><a href="article-3.html">Как выбрать навес для машины</a><a href="article-4.html">Как сделать отделку бани внутри</a></div></li>
+          <li><a class="nav-link" href="../index.html#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions"><a class="header-phone-inline" href="tel:+79023742764">+7 (902)-374-27-64</a><a class="btn btn-primary" href="../index.html#price-cta">Получить консультацию</a></div>
+    </div>
+  </div>
+</header>
+
+  <main>
+    <div class="container">
+      <div class="hero">
+        <p><a href="../index.html">Главная</a> / <a href="index.html">Статьи</a> / {{ARTICLE_SLUG_TITLE}}</p>
+        <span class="eyebrow">Полезная статья</span>
+        <h1>{{ARTICLE_TITLE}}</h1>
+        <p>{{ARTICLE_LEAD}}</p>
+        <figure class="hero-media"><img src="{{HERO_IMAGE}}" alt="{{HERO_ALT}}" loading="eager" /></figure>
+      </div>
+
+      <div class="article-layout">
+        <article class="article-card blog-article">
+          {{ARTICLE_CONTENT_HTML}}
+
+          <section aria-label="Читайте также">
+            <h2>Читайте также</h2>
+            <div class="related">
+              <a class="related-card" href="{{RELATED_1_LINK}}"><img src="{{RELATED_1_IMAGE}}" alt="{{RELATED_1_ALT}}" loading="lazy" />{{RELATED_1_TITLE}}</a>
+              <a class="related-card" href="{{RELATED_2_LINK}}"><img src="{{RELATED_2_IMAGE}}" alt="{{RELATED_2_ALT}}" loading="lazy" />{{RELATED_2_TITLE}}</a>
+              <a class="related-card" href="{{RELATED_3_LINK}}"><img src="{{RELATED_3_IMAGE}}" alt="{{RELATED_3_ALT}}" loading="lazy" />{{RELATED_3_TITLE}}</a>
+            </div>
+          </section>
+        </article>
+
+        <aside class="toc" aria-label="Содержание статьи">
+          <h2>Содержание</h2>
+          {{TOC_HTML}}
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer"><div class="container"><div class="footer-grid"><div class="footer-col"><a class="brand" href="../index.html#home"><span class="brand-title">Вольеры Самара</span><span class="brand-subtitle">Изготовление вольеров, будок и конструкций на заказ</span></a><p class="footer-copy">Изготавливаем вольеры и будки для собак, а также другие конструкции из дерева и металла на заказ в Самаре и Самарской области.</p><div class="footer-actions"><a class="btn-secondary" href="../index.html#contacts">Оставить заявку</a></div></div><div class="footer-col"><div class="footer-title">Услуги</div><div class="footer-services"><a href="../index.html#service-main">Вольеры и будки для собак</a><a href="../domiki-dlya-koshek.html">Домики для кошек</a><a href="../hozbloki.html">Хозблоки</a><a href="../besedki-terrasy-verandy.html">Беседки, террасы, веранды</a><a href="../metallokonstrukcii.html">Металлоконструкции</a></div></div><div class="footer-col"><div class="footer-title">Контакты</div><div class="footer-contacts"><a href="tel:+79023742764">+7 (902)-374-27-64</a><a href="https://t.me/+79023742764" target="_blank" rel="noopener noreferrer">Telegram</a><span class="muted">Самарская обл., г.о. Самара, Промышленный район, 7-я просека 4-й пр.</span><span class="muted">Ежедневно с 08:00 до 21:00</span><a class="footer-policy" href="#">Политика конфиденциальности</a></div></div></div><div class="footer-bottom"><span>© 2026 Вольеры Самара. Все права защищены.</span></div></div></footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
